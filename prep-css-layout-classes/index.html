@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: 33%;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Indiana Jones</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/raiders.jpg" alt="raiders">
+        <h3>Raiders of the Lost Ark</h3>
+        <p>Dr. Indiana Jones is hired by the U.S. Government to find the ark of the covenant.</p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg" alt="temple">
+        <h3>Temple of Doom</h3>
+        <p>Indiana Jones survives a murder attempt by Lao Che. He teams up with an orphan to reunite missing children with the villagers.</p>
+      </div>
+      <div class="column">
+        <img src="images/crusade.jpg" alt="crusade">
+        <h3>The Last Crusade</h3>
+        <p>Indiana Jones intercepts grave robbers and is accussed of stealing property.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Complete the HTML here -->
+
+</body>
+</html>
