@@ -11,7 +11,8 @@
     var $container = document.querySelector('div');
     console.log($container);
 
-    var $heading = document.createElement('h1').textContent = 'Hello World';
+    var $heading = document.createElement('h1');
+    $heading.textContent = 'Hello World';
     console.log($heading);
     $container.appendChild($heading);
   </script>
